@@ -11,5 +11,7 @@ namespace chess {
         Piece();
         Piece(PieceType type, PieceColor color);
         explicit Piece(char symbol);
+
+        char symbol() const;
     };
 }
